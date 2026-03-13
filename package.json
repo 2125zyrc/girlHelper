@@ -1,8 +1,9 @@
 {
-  "name": "cisme",
+  "name": "girl-helper",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "🍽️ 女朋友说\"随便\"？Girl Helper 帮你搞定！一个专治选择困难症的美食决策平台，从此约会不纠结。",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

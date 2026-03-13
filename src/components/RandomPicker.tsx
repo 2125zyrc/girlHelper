@@ -33,7 +33,7 @@ export function RandomPicker({ onPick }: RandomPickerProps) {
     <>
       <Button size="lg" onClick={handlePick} className="gap-2 text-base px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all">
         <Shuffle className="h-5 w-5" />
-        随机吃点啥
+        她说随便，我来选
       </Button>
 
       <Dialog open={open} onOpenChange={setOpen}>
@@ -47,8 +47,8 @@ export function RandomPicker({ onPick }: RandomPickerProps) {
             <>
               <DialogHeader className="items-center">
                 <div className="text-5xl mb-4">🍽️</div>
-                <DialogTitle className="text-2xl">就吃这个！</DialogTitle>
-                <DialogDescription>命运之轮已经为你做出了选择</DialogDescription>
+                <DialogTitle className="text-2xl">就决定是你了！</DialogTitle>
+                <DialogDescription>她说随便，命运已经帮你选好了</DialogDescription>
               </DialogHeader>
               <div className="space-y-3 py-4">
                 <h3 className="text-xl font-bold text-foreground">{picked.name}</h3>

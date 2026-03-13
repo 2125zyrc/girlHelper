@@ -1,6 +1,10 @@
-# React + TypeScript + Vite
+# Girl Helper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🍽️ 女朋友说"随便"？Girl Helper 帮你搞定！一个专治选择困难症的美食决策平台，从此约会不纠结。
+
+## 技术栈
+
+React + TypeScript + Vite
 
 Currently, two official plugins are available:
 
